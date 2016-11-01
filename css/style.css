@@ -14,6 +14,16 @@ body{
     margin: 0 auto; 
     width: 75%;
 }
+.content{
+    height:200%;
+    background-color:darkgray;
+    font-family: Arial;
+}
+.ctext{
+    position: relative;
+    left: 10px;
+    width: 96%;
+}
 .link {
     background-color: beige;
 }
@@ -50,16 +60,15 @@ body{
 }
  
 @media screen and (min-width: 600px) {
-  .links li {
+.links li {
     width: 120px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
   }
- 
-  /* Option 1 - Display Inline */
-  .links li {
+
+.links li {
     display: inline-block;
     margin-right: -4px;
   }
